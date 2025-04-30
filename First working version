@@ -1,0 +1,101 @@
+'''
+MY PROG v1
+author: Jackson Silvester
+
+This is just a demo
+'''
+
+# import libraries
+import os
+import math
+
+# set variables
+float_decimalNumber = '1'
+boolchoice = True
+str_userChoice = ''
+my_Number = 0
+print('some text')
+
+while boolchoice is True:
+    str_userChoice = input("Please pick A B C D")
+    if str_userChoice == 'a':
+        my_Number = my_Number + 1
+        print("correct")
+        boolchoice = False
+    elif str_userChoice == 'b':
+        print("False")
+        boolchoice = False
+    elif str_userChoice =='c':
+        print("False")
+        boolchoice = False
+    elif str_userChoice =='d':
+        print("False")
+        boolchoice = False
+        my_Number=+1
+        print(my_Number)
+    else:
+        print("Actual answer please")
+while boolchoice is False:
+    str_userChoice = input("Please pick A B C D")
+    if str_userChoice == 'a':
+        print("False")
+        boolchoice = True
+    elif str_userChoice == 'b':
+        print("correct")
+        boolchoice = True
+    elif str_userChoice =='c':
+        print("False")
+        boolchoice = True
+    elif str_userChoice =='d':
+        print("False")
+        boolchoice = True
+    else:
+        print("Actual answer please")
+while boolchoice is True:
+    str_userChoice = input("Please pick A B C D")
+    if str_userChoice == 'a':
+        print("correct")
+        boolchoice = False
+    elif str_userChoice == 'b':
+        print("False")
+        boolchoice = False
+    elif str_userChoice =='c':
+        print("False")
+        boolchoice = False
+    elif str_userChoice =='d':
+        print("False")
+        boolchoice = False
+    else:
+        print("Actual answer please")
+while boolchoice is False:
+    str_userChoice = input("Please pick A B C D")
+    if str_userChoice == 'a':
+        print("False")
+        boolchoice = True
+    elif str_userChoice == 'b':
+        print("False")
+        boolchoice = True
+    elif str_userChoice =='c':
+        print("False")
+        boolchoice = True
+    elif str_userChoice =='d':
+        print("Correct")
+        boolchoice = True
+    else:
+        print("Actual answer please")
+while boolchoice is True:
+    str_userChoice = input("Please pick A B C D")
+    if str_userChoice == 'a':
+        print("correct")
+        boolchoice = False
+    elif str_userChoice == 'b':
+        print("False")
+        boolchoice = False
+    elif str_userChoice =='c':
+        print("Correct")
+        boolchoice = False
+    elif str_userChoice =='d':
+        print("False")
+        boolchoice = False
+    else:
+        print("Actual answer please")
